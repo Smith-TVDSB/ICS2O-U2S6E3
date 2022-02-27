@@ -1,4 +1,4 @@
-def pyramid(number):
+def pyramid(number, word):
     print("0") #Fix this
 
 def main():
