@@ -2,10 +2,10 @@
 This example project is written in Python, and tested with pytest.
 
 ### The assignment
-Create a function that takes in a number, then prints a triangle of * with that number of rows:
+Create a function that takes in a number and a word, then prints a triangle of the word with that number of rows:
 
-### Input
-5
+### Inputs
+5, Oaks
 
 ### Output
-![outout](./pyramid.png)
+![outout](./oaksPyramid.png)
