@@ -15,4 +15,4 @@ def test_1(capsys):
 def test_5(capsys):
     student.pyramid(5,'*')
     out,err =  capsys.readouterr()
-    assert out == "*\n**\n***\n****\n******\n" or out == "* \n* * \n* * * \n* * * * \n* * * * * * \n"
+    assert out == "*\n**\n***\n****\n*****\n" or out == "* \n* * \n* * * \n* * * * \n* * * * * \n"
