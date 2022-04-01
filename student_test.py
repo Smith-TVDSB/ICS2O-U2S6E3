@@ -5,7 +5,7 @@ import student
 def test_3(capsys):
     student.pyramid(3,'oaks')
     out,err =  capsys.readouterr()
-    assert out == "*oaks\noaksoaks\noaksoaksoaks\n" or out == "oaks \noaks oaks \noaks oaks oaks \n"
+    assert out == "oaks\noaksoaks\noaksoaksoaks\n" or out == "oaks \noaks oaks \noaks oaks oaks \n"
 
 def test_1(capsys):
     student.pyramid(1, 'magiscarps')
